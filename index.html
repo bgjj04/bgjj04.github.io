@@ -29,53 +29,14 @@
    <!-- Favicons
 	================================================== -->
 	<link rel="shortcut icon" href="favicon.png" >
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 
 </head>
 
 <body>
 
-   <!-- Header
-   ================================================== -->
-   <header id="home">
 
-      <nav id="nav-wrap">
-
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
-            <li><a  href="http://medium.com/jjs-blog/">Blog</a></li>
-            <li><a class="smoothscroll" href="#pursuits">Personal Pursuits</a></li>
-            <li><a class="smoothscroll" href="#contact">Contact</a></li>
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap -->
-
-      <div class="row banner">
-         <div class="banner-text">
-            <h1 class="responsive-headline">Jonathan R. Jackson</h1>
-            <h3><span>IT Service Management Professional<br/>&<br/>ServiceNow® Certified System Administrator</span></h3>
-            <hr />
-            <ul class="social">
-              <li><a href="https://community.servicenow.com/people/wsujj" target="_blank"><i class="fa fa-power-off"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/jonathanrjackson" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="https://github.com/bgjj04" target="_blank"><i class="fa fa-github"></i></a></li>
-              <li><a href="http://facebook.com/jonathanrjackson/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="http://twitter.com/bgjj04" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            </ul>
-         </div>
-      </div>
-
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
-
-   </header> <!-- Header End -->
-
+<div id="header"></div><br />
 
    <!-- About Section
    ================================================== -->
@@ -696,34 +657,7 @@
    </section> <!-- Contact Section End-->
 
 
-   <!-- footer
-   ================================================== -->
-   <footer>
-
-      <div class="row">
-
-         <div class="twelve columns">
-
-            <ul class="social-links">
-              <li><a href="https://community.servicenow.com/people/wsujj" target="_blank"><i class="fa fa-power-off"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/jonathanrjackson" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="https://github.com/bgjj04" target="_blank"><i class="fa fa-github"></i></a></li>
-              <li><a href="http://facebook.com/jonathanrjackson/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="http://twitter.com/bgjj04" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            </ul>
-
-            <ul class="copyright">
-               <li>&copy; ©2016 Jonathan R. Jackson</li>
-               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>
-            </ul>
-
-         </div>
-
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-
-      </div>
-
-   </footer> <!-- Footer End-->
+<div id="footer"></div>
 
    <!-- Java Script
    ================================================== -->
@@ -736,7 +670,11 @@
    <script src="js/jquery.fittext.js"></script>
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
+   <script>
+       $("#header").load("header.html");
+       $("#footer").load("footer.html");
 
+   </script>
 </body>
 
 </html>
