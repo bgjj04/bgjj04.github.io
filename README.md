@@ -1,3 +1,8 @@
+---
+layout: post
+title: Blogging Like a Hacker
+---
+
 # bgjj04.github.io
 {% highlight ruby %}
 def show
