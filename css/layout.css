@@ -204,6 +204,7 @@ ul#nav li.current a { color: #F06000; }
 #about p {
    line-height: 30px;
    color: #7A7A7A;
+   
 }
 #about .profile-pic {
    position: relative;
@@ -297,7 +298,7 @@ ul#nav li.current a { color: #F06000; }
 padding-bottom: 24px;
   	margin-top: 36px;
    list-style: none;
-     
+
 
    font: 15px 'opensans-bold', sans-serif;
 }
